@@ -24,7 +24,6 @@ class Edit extends Component
 
         $this->emit('updated');
 
-        // session()->flash('message', 'Successfully updated user');
         session()->flash('message', 'Successfully updated user');
     }
 

@@ -20,7 +20,3 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/users', 'UserController@index')->name('users.index');
-
-// Route::livewire('/users/{user}/edit', 'users.edit');
-// Livewire::get('/users/{user}/edit', 'users.edit');
-// Livewire::get('/users/create', 'users-create');
